@@ -5,7 +5,7 @@ n = 10000;
 p = [0.01, 0.1, 0.2, 0.5];
 
 % Binomial and Poisson 1
-figure('Name','');
+figure('Name','HW5 1.(e)');
 subplot(2,4,1); % 8 plots in one figure
 x = 0:n;
 y1_b = binopdf(x, n, p(1));
