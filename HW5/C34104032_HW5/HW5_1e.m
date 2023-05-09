@@ -9,11 +9,11 @@ figure('Name','HW5 1.(e)');
 subplot(2,4,1); % 8 plots in one figure
 x = 0:n;
 y1_b = binopdf(x, n, p(1));
-plot(x1, y1_b);
+plot(x, y1_b);
 hold on;
 mu1 = n*p(1); % Calculate µ
-y1_p = poisspdf(x1, mu1);
-plot(x1, y1_p);
+y1_p = poisspdf(x, mu1);
+plot(x, y1_p);
 hold off;
 title('n = 10^4 p = 0.01');
 legend('binomial distribution', 'poisson distribution');
